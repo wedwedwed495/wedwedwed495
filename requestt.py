@@ -135,8 +135,6 @@ def get(url, ggg, slach, to__do):
             data = gggg.reason
             print(data)  
     elif to__do == ".save.jpg":
-        
-        
         if gggg:
              def download_image(url, save_as):
                  urllib.request.urlretrieve(url, save_as)
@@ -146,14 +144,12 @@ def get(url, ggg, slach, to__do):
              save_as = 'image.jpg'
 
              download_image(image_url, save_as)
-    elif to__do == ".save.pkg":
-        
-        
+    elif to__do == ".save.pkg":   
         if gggg:
              def download_image(url, save_as):
                  urllib.request.urlretrieve(url, save_as)
                  print(urllib.request.urlretrieve(url, save_as))
-             uwehfuiwhefui ="http://python.org/ftp/python/3.13.2/python-3.13.2-macos11.pkg"
+             uwehfuiwhefui =url, slach
              image_url = uwehfuiwhefui
              save_as = 'image.pkg'
 
@@ -169,9 +165,7 @@ def get(url, ggg, slach, to__do):
     elif to__do == ".headers":
         hgghh = gggg.headers
         print(hgghh)
-headers = input()
-ggg = input()
-gg = input()
+
 
 to_do = ".save.pkg"
-get(ggg, 'GET', gg, to_do)
+get('http://python.org', 'GET', "/ftp/python/3.13.2/python-3.13.2-macos11.pkg", to_do)
