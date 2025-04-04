@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: requestt_pro
+Version: 0.0.5
+Summary: A brief description of your package
+Home-page: https://github.com/wedwedwed495/wedwedwed495
+Requires-Python: >=3.11.1
+Description-Content-Type: text/markdown
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+hello, i made a http client whery easy to use!
+The most easy way is to import it like from requestt_pro import *
